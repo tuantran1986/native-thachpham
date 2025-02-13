@@ -1,7 +1,7 @@
 import { Button, StyleSheet, Text, TextInput, View } from "react-native";
 
 // ========= BÀI DỰNG GIAO DIỆN - TODOLIST =========
-export default function App() {
+export default function AppBai6ToDoList() {
   const handlePressAdd = () => {
     alert("thêm mới");
   };
