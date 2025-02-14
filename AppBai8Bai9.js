@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Button, StyleSheet, Text, TextInput, View } from "react-native";
 
 // ========= BÀI - TODOLIST = "JAVASCRIPT" =========
-export default function App() {
+export default function AppBai8Bai9() {
   const [todo, setTodo] = useState("");
   const [todoList, setTodoList] = useState([]);
 
