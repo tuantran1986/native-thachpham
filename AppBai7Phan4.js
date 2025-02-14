@@ -1,7 +1,7 @@
 import { Button, StyleSheet, Text, TextInput, View } from "react-native";
 
 // ========= BÀI 7 - FLEX =========
-export default function App() {
+export default function AppBai7Phan4() {
   // =================== render ===================
   return (
     <View style={myStyles.containerBox}>
