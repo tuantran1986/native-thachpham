@@ -2,7 +2,7 @@ import { FlatList, StyleSheet, Text, View } from "react-native";
 
 // =================== COMPONENT - "CHÍNH" ===================
 export default function Bai13FlatList() {
-  // 2 thuộc tính của FlatList = data + renderItem
+  // CYDB: 2 thuộc tính của FlatList = data + renderItem
   const data = [
     { id: 1, title: "flat list item - 1" },
     { id: 2, title: "flat list item - 2" },
