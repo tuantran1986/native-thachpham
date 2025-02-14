@@ -28,7 +28,7 @@ function DetailsPage() {
   );
 }
 
-export default function App() {
+export default function AppBai10DieuHuongNavigation() {
   // cydb 1 - khai báo STACK
   const Stack = createStackNavigator();
 
