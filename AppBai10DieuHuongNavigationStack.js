@@ -2,7 +2,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import { Button, StyleSheet, Text, View } from "react-native";
 
-// ========= BÀI - ĐIỀU HƯỚNG = 1 NAVIGATION =========
+// ========= BÀI - ĐIỀU HƯỚNG = 1 NAVIGATION STACK =========
 
 // cydb 3 - props - điều hướng = navigation
 function HomePage({ navigation }) {
@@ -28,7 +28,7 @@ function DetailsPage() {
   );
 }
 
-export default function AppBai10DieuHuongNavigation() {
+export default function AppBai10DieuHuongNavigationStack() {
   // cydb 1 - khai báo STACK
   const Stack = createStackNavigator();
 

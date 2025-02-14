@@ -30,7 +30,7 @@ function DetailsPage() {
   );
 }
 
-export default function App() {
+export default function AppBai11DieuHuongNavigationTab() {
   // cydb 1 - khai báo "TAB" = createBottomTabNavigator
   const Tab = createBottomTabNavigator();
 
